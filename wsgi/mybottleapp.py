@@ -6,7 +6,7 @@ def nameindex(name='Stranger'):
  
 @route('/')
 def index():
-    return '<strong>Hello World!</strong> Test build from github remote trigger.'
+    return '<strong>Hello World!</strong> Test build from github remote trigger with password.'
 
 # This must be added in order to do correct path lookups for the views
 import os
